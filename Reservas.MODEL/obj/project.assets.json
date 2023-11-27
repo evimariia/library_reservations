@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\TrabalhoFinal_LPIII\\Reservas.MODEL\\Reservas.MODEL.csproj",
+      "projectUniqueName": "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.MODEL\\Reservas.MODEL.csproj",
       "projectName": "Reservas.MODEL",
-      "projectPath": "C:\\TrabalhoFinal_LPIII\\Reservas.MODEL\\Reservas.MODEL.csproj",
+      "projectPath": "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.MODEL\\Reservas.MODEL.csproj",
       "packagesPath": "C:\\Users\\evila\\.nuget\\packages\\",
-      "outputPath": "C:\\TrabalhoFinal_LPIII\\Reservas.MODEL\\obj\\",
+      "outputPath": "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.MODEL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\evila\\AppData\\Roaming\\NuGet\\NuGet.Config",

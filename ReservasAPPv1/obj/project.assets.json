@@ -3193,11 +3193,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\TrabalhoFinal_LPIII\\ReservasAPPv1\\ReservasAPPv1.csproj",
+      "projectUniqueName": "C:\\TrabalhoFinal_LPIII\\screaming_crying\\ReservasAPPv1\\ReservasAPPv1.csproj",
       "projectName": "ReservasAPPv1",
-      "projectPath": "C:\\TrabalhoFinal_LPIII\\ReservasAPPv1\\ReservasAPPv1.csproj",
+      "projectPath": "C:\\TrabalhoFinal_LPIII\\screaming_crying\\ReservasAPPv1\\ReservasAPPv1.csproj",
       "packagesPath": "C:\\Users\\evila\\.nuget\\packages\\",
-      "outputPath": "C:\\TrabalhoFinal_LPIII\\ReservasAPPv1\\obj\\",
+      "outputPath": "C:\\TrabalhoFinal_LPIII\\screaming_crying\\ReservasAPPv1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\evila\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3214,11 +3214,11 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\TrabalhoFinal_LPIII\\Reservas.BLL\\Reservas.BLL.csproj": {
-              "projectPath": "C:\\TrabalhoFinal_LPIII\\Reservas.BLL\\Reservas.BLL.csproj"
+            "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.BLL\\Reservas.BLL.csproj": {
+              "projectPath": "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.BLL\\Reservas.BLL.csproj"
             },
-            "C:\\TrabalhoFinal_LPIII\\Reservas.MODEL\\Reservas.MODEL.csproj": {
-              "projectPath": "C:\\TrabalhoFinal_LPIII\\Reservas.MODEL\\Reservas.MODEL.csproj"
+            "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.MODEL\\Reservas.MODEL.csproj": {
+              "projectPath": "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.MODEL\\Reservas.MODEL.csproj"
             }
           }
         }

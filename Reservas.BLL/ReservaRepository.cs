@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Reservas.BLL
 {
-    internal class ReservaRepository
+    public static class ReservaRepository
     {
         public static Reserva Add(Reserva _reserva)
         {

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Reservas.BLL
 {
-    public class UsuarioRepository
+    public static class UsuarioRepository
     {
         public static Usuario Add(Usuario _usuario)
         {
@@ -78,6 +78,24 @@ namespace Reservas.BLL
                 return usuarios;
             }
 
+        }
+
+        public static Boolean AutenticaUsuario(String RA, String senha)
+        {
+            using (var dbContext = new CTrabalhofinalLpiiiReservasDalDatabaseDatabaseMdfContext())
+            {
+                var usuario = dbContext.Usuarios.Single(p => p.Ra == RA);
+                if (usuario.Ra == RA && usuario.Senha == senha)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+
+
+            }
         }
 
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zCGpCv82PtN4Hl6HQkweRCt9hMgQyVQUJnKdg03298p0KX0ljpqG1r1mLqOLAWz4xLrOlGvVR5RQC/orTvCqKA==",
+  "dgSpecHash": "73/IguHR7oNOCc9eAFxk5E69Qyzax7QoGUXg1MjC5R0pSMAxrelrI/3hDVSiOfjnslb7DHK/fBOdWSLC7sRWYQ==",
   "success": true,
-  "projectFilePath": "C:\\TrabalhoFinal_LPIII\\Reservas.BLLService\\Reservas.BLLService.csproj",
+  "projectFilePath": "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.BLLService\\Reservas.BLLService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\evila\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\evila\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
