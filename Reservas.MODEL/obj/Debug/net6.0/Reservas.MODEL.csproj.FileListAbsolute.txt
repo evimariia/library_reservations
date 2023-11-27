@@ -1,0 +1,11 @@
+C:\TrabalhoFinal_LPIII\Reservas.MODEL\bin\Debug\net6.0\Reservas.MODEL.deps.json
+C:\TrabalhoFinal_LPIII\Reservas.MODEL\bin\Debug\net6.0\Reservas.MODEL.dll
+C:\TrabalhoFinal_LPIII\Reservas.MODEL\bin\Debug\net6.0\Reservas.MODEL.pdb
+C:\TrabalhoFinal_LPIII\Reservas.MODEL\obj\Debug\net6.0\Reservas.MODEL.GeneratedMSBuildEditorConfig.editorconfig
+C:\TrabalhoFinal_LPIII\Reservas.MODEL\obj\Debug\net6.0\Reservas.MODEL.AssemblyInfoInputs.cache
+C:\TrabalhoFinal_LPIII\Reservas.MODEL\obj\Debug\net6.0\Reservas.MODEL.AssemblyInfo.cs
+C:\TrabalhoFinal_LPIII\Reservas.MODEL\obj\Debug\net6.0\Reservas.MODEL.csproj.CoreCompileInputs.cache
+C:\TrabalhoFinal_LPIII\Reservas.MODEL\obj\Debug\net6.0\Reservas.MODEL.dll
+C:\TrabalhoFinal_LPIII\Reservas.MODEL\obj\Debug\net6.0\refint\Reservas.MODEL.dll
+C:\TrabalhoFinal_LPIII\Reservas.MODEL\obj\Debug\net6.0\Reservas.MODEL.pdb
+C:\TrabalhoFinal_LPIII\Reservas.MODEL\obj\Debug\net6.0\ref\Reservas.MODEL.dll

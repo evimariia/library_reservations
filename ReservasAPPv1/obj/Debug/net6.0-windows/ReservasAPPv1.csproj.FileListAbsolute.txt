@@ -1,0 +1,16 @@
+C:\TrabalhoFinal_LPIII\ReservasAPPv1\bin\Debug\net6.0-windows\ReservasAPPv1.exe
+C:\TrabalhoFinal_LPIII\ReservasAPPv1\bin\Debug\net6.0-windows\ReservasAPPv1.deps.json
+C:\TrabalhoFinal_LPIII\ReservasAPPv1\bin\Debug\net6.0-windows\ReservasAPPv1.runtimeconfig.json
+C:\TrabalhoFinal_LPIII\ReservasAPPv1\bin\Debug\net6.0-windows\ReservasAPPv1.dll
+C:\TrabalhoFinal_LPIII\ReservasAPPv1\bin\Debug\net6.0-windows\ReservasAPPv1.pdb
+C:\TrabalhoFinal_LPIII\ReservasAPPv1\obj\Debug\net6.0-windows\ReservasAPPv1.Form1.resources
+C:\TrabalhoFinal_LPIII\ReservasAPPv1\obj\Debug\net6.0-windows\ReservasAPPv1.csproj.GenerateResource.cache
+C:\TrabalhoFinal_LPIII\ReservasAPPv1\obj\Debug\net6.0-windows\ReservasAPPv1.GeneratedMSBuildEditorConfig.editorconfig
+C:\TrabalhoFinal_LPIII\ReservasAPPv1\obj\Debug\net6.0-windows\ReservasAPPv1.AssemblyInfoInputs.cache
+C:\TrabalhoFinal_LPIII\ReservasAPPv1\obj\Debug\net6.0-windows\ReservasAPPv1.AssemblyInfo.cs
+C:\TrabalhoFinal_LPIII\ReservasAPPv1\obj\Debug\net6.0-windows\ReservasAPPv1.csproj.CoreCompileInputs.cache
+C:\TrabalhoFinal_LPIII\ReservasAPPv1\obj\Debug\net6.0-windows\ReservasAPPv1.dll
+C:\TrabalhoFinal_LPIII\ReservasAPPv1\obj\Debug\net6.0-windows\refint\ReservasAPPv1.dll
+C:\TrabalhoFinal_LPIII\ReservasAPPv1\obj\Debug\net6.0-windows\ReservasAPPv1.pdb
+C:\TrabalhoFinal_LPIII\ReservasAPPv1\obj\Debug\net6.0-windows\ReservasAPPv1.genruntimeconfig.cache
+C:\TrabalhoFinal_LPIII\ReservasAPPv1\obj\Debug\net6.0-windows\ref\ReservasAPPv1.dll
