@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yVDJESWVUDI7/CTeYHqpF2XPPNVBzTEGcfVtmdOFUxse3dMri420TpP76w6jPG12Nusat6DPXFtSu+n+4gLREg==",
+  "dgSpecHash": "Dt0XJdNHVjZkyNk5aRiyfjQZIMNUzMQsOwypXrRjeUzSmXIblfVYD/jvFQDi3fAaEaO5Q2uw1nsrl99IxG92Mw==",
   "success": true,
-  "projectFilePath": "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.MODEL\\Reservas.MODEL.csproj",
+  "projectFilePath": "C:\\library_reservations\\Reservas.MODEL\\Reservas.MODEL.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

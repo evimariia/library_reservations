@@ -17,7 +17,8 @@ namespace ReservasAPPv1
             InitializeComponent();
         }
 
-        private void bt1_Click(object sender, EventArgs e)
+
+        private void button1_Click(object sender, EventArgs e)
         {
             string RA = textBox1.Text;
             string senha = textBox2.Text;
@@ -25,14 +26,14 @@ namespace ReservasAPPv1
             try
             {
                 if (Reservas.BLL.UsuarioRepository.AutenticaUsuario(RA, senha))
+                //if (RA == "1t1.111111" && senha == "1234")
                 {
-                    string resultado = label4.Text;
-                    resultado = "Reserva realizada com sucesso";
+                    label4.Text = "Reserva realizada com sucesso";
                     label4.Visible = true;
                 }
                 else
                 {
-                    label4.Text = "Não foi possível realizar a reserva. Aluno não encontrado";
+                    label4.Text = "Não foi possível realizar a reserva. Aluno não encontrado ou credenciais inválidas";
                     label4.Visible = true;
                 }
             }

@@ -3188,19 +3188,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\evila\\.nuget\\packages\\": {}
+    "C:\\Users\\Bruno\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\TrabalhoFinal_LPIII\\screaming_crying\\ReservasAPPv1\\ReservasAPPv1.csproj",
+      "projectUniqueName": "C:\\library_reservations\\ReservasAPPv1\\ReservasAPPv1.csproj",
       "projectName": "ReservasAPPv1",
-      "projectPath": "C:\\TrabalhoFinal_LPIII\\screaming_crying\\ReservasAPPv1\\ReservasAPPv1.csproj",
-      "packagesPath": "C:\\Users\\evila\\.nuget\\packages\\",
-      "outputPath": "C:\\TrabalhoFinal_LPIII\\screaming_crying\\ReservasAPPv1\\obj\\",
+      "projectPath": "C:\\library_reservations\\ReservasAPPv1\\ReservasAPPv1.csproj",
+      "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+      "outputPath": "C:\\library_reservations\\ReservasAPPv1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\evila\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3214,11 +3214,11 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.BLL\\Reservas.BLL.csproj": {
-              "projectPath": "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.BLL\\Reservas.BLL.csproj"
+            "C:\\library_reservations\\Reservas.BLL\\Reservas.BLL.csproj": {
+              "projectPath": "C:\\library_reservations\\Reservas.BLL\\Reservas.BLL.csproj"
             },
-            "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.MODEL\\Reservas.MODEL.csproj": {
-              "projectPath": "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.MODEL\\Reservas.MODEL.csproj"
+            "C:\\library_reservations\\Reservas.MODEL\\Reservas.MODEL.csproj": {
+              "projectPath": "C:\\library_reservations\\Reservas.MODEL\\Reservas.MODEL.csproj"
             }
           }
         }

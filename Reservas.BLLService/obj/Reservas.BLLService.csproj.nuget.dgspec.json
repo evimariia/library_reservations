@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.BLLService\\Reservas.BLLService.csproj": {}
+    "C:\\library_reservations\\Reservas.BLLService\\Reservas.BLLService.csproj": {}
   },
   "projects": {
-    "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.BLLService\\Reservas.BLLService.csproj": {
+    "C:\\library_reservations\\Reservas.BLLService\\Reservas.BLLService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.BLLService\\Reservas.BLLService.csproj",
+        "projectUniqueName": "C:\\library_reservations\\Reservas.BLLService\\Reservas.BLLService.csproj",
         "projectName": "Reservas.BLLService",
-        "projectPath": "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.BLLService\\Reservas.BLLService.csproj",
-        "packagesPath": "C:\\Users\\evila\\.nuget\\packages\\",
-        "outputPath": "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.BLLService\\obj\\",
+        "projectPath": "C:\\library_reservations\\Reservas.BLLService\\Reservas.BLLService.csproj",
+        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "outputPath": "C:\\library_reservations\\Reservas.BLLService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\evila\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.BLL\\Reservas.BLL.csproj": {
-                "projectPath": "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.BLL\\Reservas.BLL.csproj"
+              "C:\\library_reservations\\Reservas.BLL\\Reservas.BLL.csproj": {
+                "projectPath": "C:\\library_reservations\\Reservas.BLL\\Reservas.BLL.csproj"
               },
-              "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.MODEL\\Reservas.MODEL.csproj": {
-                "projectPath": "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.MODEL\\Reservas.MODEL.csproj"
+              "C:\\library_reservations\\Reservas.MODEL\\Reservas.MODEL.csproj": {
+                "projectPath": "C:\\library_reservations\\Reservas.MODEL\\Reservas.MODEL.csproj"
               }
             }
           }
@@ -79,17 +79,17 @@
         }
       }
     },
-    "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.BLL\\Reservas.BLL.csproj": {
+    "C:\\library_reservations\\Reservas.BLL\\Reservas.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.BLL\\Reservas.BLL.csproj",
+        "projectUniqueName": "C:\\library_reservations\\Reservas.BLL\\Reservas.BLL.csproj",
         "projectName": "Reservas.BLL",
-        "projectPath": "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.BLL\\Reservas.BLL.csproj",
-        "packagesPath": "C:\\Users\\evila\\.nuget\\packages\\",
-        "outputPath": "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.BLL\\obj\\",
+        "projectPath": "C:\\library_reservations\\Reservas.BLL\\Reservas.BLL.csproj",
+        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "outputPath": "C:\\library_reservations\\Reservas.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\evila\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -103,11 +103,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.DAL\\Reservas.DAL.csproj": {
-                "projectPath": "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.DAL\\Reservas.DAL.csproj"
+              "C:\\library_reservations\\Reservas.DAL\\Reservas.DAL.csproj": {
+                "projectPath": "C:\\library_reservations\\Reservas.DAL\\Reservas.DAL.csproj"
               },
-              "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.MODEL\\Reservas.MODEL.csproj": {
-                "projectPath": "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.MODEL\\Reservas.MODEL.csproj"
+              "C:\\library_reservations\\Reservas.MODEL\\Reservas.MODEL.csproj": {
+                "projectPath": "C:\\library_reservations\\Reservas.MODEL\\Reservas.MODEL.csproj"
               }
             }
           }
@@ -141,17 +141,17 @@
         }
       }
     },
-    "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.DAL\\Reservas.DAL.csproj": {
+    "C:\\library_reservations\\Reservas.DAL\\Reservas.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.DAL\\Reservas.DAL.csproj",
+        "projectUniqueName": "C:\\library_reservations\\Reservas.DAL\\Reservas.DAL.csproj",
         "projectName": "Reservas.DAL",
-        "projectPath": "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.DAL\\Reservas.DAL.csproj",
-        "packagesPath": "C:\\Users\\evila\\.nuget\\packages\\",
-        "outputPath": "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.DAL\\obj\\",
+        "projectPath": "C:\\library_reservations\\Reservas.DAL\\Reservas.DAL.csproj",
+        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "outputPath": "C:\\library_reservations\\Reservas.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\evila\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -165,8 +165,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.MODEL\\Reservas.MODEL.csproj": {
-                "projectPath": "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.MODEL\\Reservas.MODEL.csproj"
+              "C:\\library_reservations\\Reservas.MODEL\\Reservas.MODEL.csproj": {
+                "projectPath": "C:\\library_reservations\\Reservas.MODEL\\Reservas.MODEL.csproj"
               }
             }
           }
@@ -220,17 +220,17 @@
         }
       }
     },
-    "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.MODEL\\Reservas.MODEL.csproj": {
+    "C:\\library_reservations\\Reservas.MODEL\\Reservas.MODEL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.MODEL\\Reservas.MODEL.csproj",
+        "projectUniqueName": "C:\\library_reservations\\Reservas.MODEL\\Reservas.MODEL.csproj",
         "projectName": "Reservas.MODEL",
-        "projectPath": "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.MODEL\\Reservas.MODEL.csproj",
-        "packagesPath": "C:\\Users\\evila\\.nuget\\packages\\",
-        "outputPath": "C:\\TrabalhoFinal_LPIII\\screaming_crying\\Reservas.MODEL\\obj\\",
+        "projectPath": "C:\\library_reservations\\Reservas.MODEL\\Reservas.MODEL.csproj",
+        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "outputPath": "C:\\library_reservations\\Reservas.MODEL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\evila\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

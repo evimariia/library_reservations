@@ -38,25 +38,26 @@ namespace ReservasAPPv1
             String tipoSala = (String)comboBox1.SelectedItem;
             String qtdePessoas = (String)comboBox2.SelectedItem;
 
-            if(tipoSala == "Grupo" && qtdePessoas == "1")
+            if (tipoSala == "Grupo" && qtdePessoas == "1")
             {
                 //MessageBox("Não é possível reservar sala de grupo para uma pessoa.\n" +
                 //           "Selecione o tipo de sala como individual");
             }
 
-            if(selectedDate < DateTime.Now)
+            if (selectedDate < DateTime.Now)
             {
                 //MessageBox("Não é possível reservar sala em datas passadas");
             }
 
-            Autenticacao autenticacao = new Autenticacao();
+            Autenticacao autenticacao = new();
             autenticacao.Show();
 
         }
 
-        private void bt2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
+            Application.Exit();
         }
     }
 
