@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Reservas.MODEL;
+using Reservas.BLL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,29 +9,38 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.VisualBasic.ApplicationServices;
 
 namespace ReservasAPPv1
 {
     public partial class Autenticacao : Form
     {
-        public Autenticacao()
+        public Autenticacao(Sala sala, DateTime dataHoraReserva)
         {
             InitializeComponent();
+            label4.Text = sala.ToString();
+            label4.Visible = true;
+
         }
 
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e, Sala sala, DateTime dataHoraReserva)
         {
             string RA = textBox1.Text;
             string senha = textBox2.Text;
 
             try
             {
-                if (Reservas.BLL.UsuarioRepository.AutenticaUsuario(RA, senha))
-                //if (RA == "1t1.111111" && senha == "1234")
+                if (UsuarioRepository.AutenticaUsuario(RA, senha))
                 {
-                    label4.Text = "Reserva realizada com sucesso";
-                    label4.Visible = true;
+                    Usuario user = UsuarioRepository.GetByRa(RA);
+                    if (ReservaRepository.SalaOcupada(sala.Id, dataHoraReserva) && ReservaRepository.UsuarioOcupada(user.Id, dataHoraReserva))
+                    {
+                        Reserva reserva = new Reserva();
+                        //reserva.IdUsuario = user.Id;
+                        label4.Text = "Reserva realizada com sucesso";
+                        label4.Visible = true;
+                    }
                 }
                 else
                 {
@@ -44,5 +55,6 @@ namespace ReservasAPPv1
                 textBox2.Text = "";
             }
         }
+
     }
 }

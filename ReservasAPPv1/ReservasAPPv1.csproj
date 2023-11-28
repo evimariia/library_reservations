@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Reservas.BLL\Reservas.BLL.csproj" />
     <ProjectReference Include="..\Reservas.MODEL\Reservas.MODEL.csproj" />
   </ItemGroup>

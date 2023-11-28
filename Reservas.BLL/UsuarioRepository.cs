@@ -34,6 +34,24 @@ namespace Reservas.BLL
             }
         }
 
+        public static Usuario GetByRa(string RA)
+        {
+
+            using (var dbContext = new CTrabalhofinalLpiiiReservasDalDatabaseDatabaseMdfContext())
+            {
+                try
+                {
+                    var usuario = dbContext.Usuarios.Single(p => p.Ra == RA);
+                    return usuario;
+                }
+                catch
+                {
+                    return null;
+
+                }
+            }
+        }
+
         public static List<Usuario> GetAll()
         {
 
@@ -85,7 +103,7 @@ namespace Reservas.BLL
             using (var dbContext = new CTrabalhofinalLpiiiReservasDalDatabaseDatabaseMdfContext())
             {
                 var usuario = dbContext.Usuarios.Single(p => p.Ra == RA);
-                if (usuario.Ra == RA && usuario.Senha == senha)
+                if (usuario.Senha == senha)
                 {
                     return true;
                 }

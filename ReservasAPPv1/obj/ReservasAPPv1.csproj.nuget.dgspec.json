@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\library_reservations\\Reservas.BLL\\Reservas.BLL.csproj",
         "projectName": "Reservas.BLL",
         "projectPath": "C:\\library_reservations\\Reservas.BLL\\Reservas.BLL.csproj",
-        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\evila\\.nuget\\packages\\",
         "outputPath": "C:\\library_reservations\\Reservas.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\evila\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -72,11 +72,11 @@
         "projectUniqueName": "C:\\library_reservations\\Reservas.DAL\\Reservas.DAL.csproj",
         "projectName": "Reservas.DAL",
         "projectPath": "C:\\library_reservations\\Reservas.DAL\\Reservas.DAL.csproj",
-        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\evila\\.nuget\\packages\\",
         "outputPath": "C:\\library_reservations\\Reservas.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\evila\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -151,11 +151,11 @@
         "projectUniqueName": "C:\\library_reservations\\Reservas.MODEL\\Reservas.MODEL.csproj",
         "projectName": "Reservas.MODEL",
         "projectPath": "C:\\library_reservations\\Reservas.MODEL\\Reservas.MODEL.csproj",
-        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\evila\\.nuget\\packages\\",
         "outputPath": "C:\\library_reservations\\Reservas.MODEL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\evila\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -206,11 +206,11 @@
         "projectUniqueName": "C:\\library_reservations\\ReservasAPPv1\\ReservasAPPv1.csproj",
         "projectName": "ReservasAPPv1",
         "projectPath": "C:\\library_reservations\\ReservasAPPv1\\ReservasAPPv1.csproj",
-        "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\evila\\.nuget\\packages\\",
         "outputPath": "C:\\library_reservations\\ReservasAPPv1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\evila\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -242,6 +242,12 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -3,8 +3,19 @@ using System.Collections.Generic;
 
 namespace Reservas.MODEL;
 
-public partial class Reserva
+public class Reserva
 {
+    public Reserva(int idUsuario, int idSala, DateTime data)
+    {
+        IdUsuario = idUsuario;
+        IdSala = idSala;
+        Data = data;
+    }
+
+    public Reserva()
+    {
+    }
+
     public int Id { get; set; }
 
     public int IdUsuario { get; set; }

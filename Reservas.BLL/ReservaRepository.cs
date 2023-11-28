@@ -50,6 +50,74 @@ namespace Reservas.BLL
             }
         }
 
+        public static Boolean SalaOcupada(int _idSala, DateTime data)
+        {
+
+            using (var dbContext = new CTrabalhofinalLpiiiReservasDalDatabaseDatabaseMdfContext())
+            {
+                try
+                {
+                    var reservas = dbContext.Reservas.ToList();
+
+                    foreach (Reserva _reserva in reservas)
+                    {
+                        var reserva = dbContext.Reservas.Single(p => p.IdSala == _idSala);
+                        if (reserva.Data == data)
+                        {
+                            return false;
+                        }
+                        else
+                        {
+                            return true;
+                        }
+                    }
+                }
+                catch
+                {
+                    return false;
+
+                }
+            }
+
+            return false;
+        }
+
+        public static Boolean UsuarioOcupada(int _idUsuario, DateTime data)
+        {
+
+            using (var dbContext = new CTrabalhofinalLpiiiReservasDalDatabaseDatabaseMdfContext())
+            {
+                try
+                {
+                    var reservas = dbContext.Reservas.ToList();
+
+                    foreach (Reserva _reserva in reservas)
+                    {
+                        var reserva = dbContext.Reservas.Single(p => p.IdUsuario == _idUsuario);
+                        if (reserva.Data == data)
+                        {
+                            return false;
+                        }
+                        else
+                        {
+                            return true;
+                        }
+                    }
+                }
+                catch
+                {
+                    return false;
+
+                }
+            }
+
+            return false;
+        }
+
+
+
+
+
         public static void Excluir(Reserva _reserva)
         {
             using (var dbContext = new CTrabalhofinalLpiiiReservasDalDatabaseDatabaseMdfContext())

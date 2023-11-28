@@ -224,3 +224,4 @@ C:\library_reservations\ReservasAPPv1\obj\Debug\net6.0-windows\refint\ReservasAP
 C:\library_reservations\ReservasAPPv1\obj\Debug\net6.0-windows\ReservasAPPv1.pdb
 C:\library_reservations\ReservasAPPv1\obj\Debug\net6.0-windows\ReservasAPPv1.genruntimeconfig.cache
 C:\library_reservations\ReservasAPPv1\obj\Debug\net6.0-windows\ref\ReservasAPPv1.dll
+C:\library_reservations\ReservasAPPv1\bin\Debug\net6.0-windows\Newtonsoft.Json.dll

@@ -1,2 +1,2 @@
-﻿INSERT INTO usuario (RA, nome, curso, semestre, senha) VALUES ("1T1.234567", "Marta", "Computação", 5, "123456");
-SELECT * FROM usuario;
+﻿insert into usuario (RA, nome, curso, semestre, senha) values ('1t1.111111', 'João Borges', 'Computação', 5, '1234');
+select * from usuario;

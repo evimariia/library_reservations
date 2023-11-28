@@ -3658,7 +3658,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Bruno\\.nuget\\packages\\": {}
+    "C:\\Users\\evila\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -3666,11 +3666,11 @@
       "projectUniqueName": "C:\\library_reservations\\Reservas.BLLService\\Reservas.BLLService.csproj",
       "projectName": "Reservas.BLLService",
       "projectPath": "C:\\library_reservations\\Reservas.BLLService\\Reservas.BLLService.csproj",
-      "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\evila\\.nuget\\packages\\",
       "outputPath": "C:\\library_reservations\\Reservas.BLLService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\evila\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

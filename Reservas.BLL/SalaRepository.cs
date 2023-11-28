@@ -39,6 +39,25 @@ namespace Reservas.BLL
             }
         }
 
+        public static Sala GetByNumero(int _numero)
+        {
+
+            using (var dbContext = new CTrabalhofinalLpiiiReservasDalDatabaseDatabaseMdfContext())
+            {
+                try
+                {
+                    var sala = dbContext.Salas.Single(p => p.Numero == _numero);
+                    return sala;
+                }
+                catch
+                {
+                    return null;
+
+                }
+            }
+        }
+
+
         public static List<Sala> GetAll()
         {
 

@@ -5,7 +5,7 @@ using Reservas.MODEL;
 
 namespace Reservas.BLLService.Controllers
 {
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class SalaController : ControllerBase
     {
@@ -29,6 +29,25 @@ namespace Reservas.BLLService.Controllers
         public ActionResult<Sala> GetSalaById(int Id)
         {
             Sala _sala = SalaRepository.GetById(Id);
+
+            try
+            {
+                if (_sala != null)
+                {
+                    return Ok(_sala);
+                }
+                return NotFound();
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
+        }
+
+        [HttpGet("{Numero}", Name = "GetSalaByNumero")]
+        public ActionResult<Sala> GetSalaByNumero(int Numero)
+        {
+            Sala _sala = SalaRepository.GetByNumero(Numero);
 
             try
             {

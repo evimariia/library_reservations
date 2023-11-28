@@ -1,4 +1,7 @@
+using Reservas.BLL;
+using Reservas.MODEL;
 using System.Windows.Forms;
+using Newtonsoft.Json;
 
 namespace ReservasAPPv1
 {
@@ -10,23 +13,24 @@ namespace ReservasAPPv1
             comboBox1.Items.Clear();
             comboBox2.Items.Clear();
             string[] tipoSala = { "Individual", "Grupo" };
+            string[] qtdePessoas = { "1", "2", "3", "4", "5", "6" };
+            string[] numSala = { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"};
+
             comboBox1.Items.AddRange(tipoSala);
-            string[] qtdePessoas = { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", };
             comboBox2.Items.AddRange(qtdePessoas);
+            comboBox3.Items.AddRange(numSala);  
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private async void bt1_ClickAsync(object sender, EventArgs e)
         {
+            String tipoSala = (String)comboBox1.SelectedItem;
+            String qtdePessoas = (String)comboBox2.SelectedItem;
+            String numSala = (String)comboBox3.SelectedItem;
 
-        }
+            DateTime selectedDate = dateTimePicker1.Value.Date;
+            DateTime selectedTime = dateTimePicker2.Value;
 
-        private void bt1_Click(object sender, EventArgs e)
-        {
-            DateTime selectedDate = dateTimePicker1.Value.Date; // Obtém a parte da data
-            DateTime selectedTime = dateTimePicker2.Value; // Obtém a parte da hora
-
-            // Combina a parte da data com a parte da hora
             DateTime dataHoraReserva = new DateTime(
                 selectedDate.Year,
                 selectedDate.Month,
@@ -35,22 +39,40 @@ namespace ReservasAPPv1
                 selectedTime.Minute,
                 selectedTime.Second
             );
-            String tipoSala = (String)comboBox1.SelectedItem;
-            String qtdePessoas = (String)comboBox2.SelectedItem;
+
+            int intNumSala = int.Parse(numSala);
 
             if (tipoSala == "Grupo" && qtdePessoas == "1")
             {
-                //MessageBox("Não é possível reservar sala de grupo para uma pessoa.\n" +
-                //           "Selecione o tipo de sala como individual");
+                label6.Text = "Não é possível reservar sala de grupo para uma pessoa.\n" +
+                              "Selecione o tipo de sala como individual";
+                label6.Visible = true;
             }
-
-            if (selectedDate < DateTime.Now)
+            else if (selectedDate < DateTime.Now)
             {
-                //MessageBox("Não é possível reservar sala em datas passadas");
+                label6.Text = "Não é possível reservar sala em datas e horários passados";
+                label6.Visible = true;
             }
+            else
+            {
 
-            Autenticacao autenticacao = new();
-            autenticacao.Show();
+                string path = "http://localhost:5197/api/Sala";
+
+                HttpClient httpClient = new HttpClient();
+                HttpResponseMessage response = await httpClient.GetAsync(path);
+                var content = await response.Content.ReadAsStringAsync();
+                List<Sala> salas = JsonConvert.DeserializeObject<List<Sala>>(content);
+
+                foreach(Sala _sala in salas)
+                {
+                    if(_sala.Numero == intNumSala)
+                    {
+                        Autenticacao autenticacao = new(_sala, dataHoraReserva);
+                        autenticacao.Show();
+                    }
+                }
+                
+            }
 
         }
 
@@ -59,6 +81,7 @@ namespace ReservasAPPv1
             this.Close();
             Application.Exit();
         }
+
     }
 
 
