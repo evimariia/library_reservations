@@ -1,4 +1,4 @@
-<h1 align="center"> 📚 Reserva de salas da biblioteca 📚 </h1>
+<h1 align="center"> 📚 MyLibrary 📚 </h1>
 
 ## Desenvolvido por
 
