@@ -56,7 +56,7 @@ namespace ReservasAPPv1
             else
             {
 
-                string path = "http://localhost:5197/api/Sala";
+                string path = "http://localhost:5197/Sala";
 
                 HttpClient httpClient = new HttpClient();
                 HttpResponseMessage response = await httpClient.GetAsync(path);

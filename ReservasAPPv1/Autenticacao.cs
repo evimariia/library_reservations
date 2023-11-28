@@ -18,8 +18,6 @@ namespace ReservasAPPv1
         public Autenticacao(Sala sala, DateTime dataHoraReserva)
         {
             InitializeComponent();
-            label4.Text = sala.ToString();
-            label4.Visible = true;
 
         }
 
@@ -36,8 +34,7 @@ namespace ReservasAPPv1
                     Usuario user = UsuarioRepository.GetByRa(RA);
                     if (ReservaRepository.SalaOcupada(sala.Id, dataHoraReserva) && ReservaRepository.UsuarioOcupada(user.Id, dataHoraReserva))
                     {
-                        Reserva reserva = new Reserva();
-                        //reserva.IdUsuario = user.Id;
+                        Reservas.MODEL.Reserva reserva = new Reservas.MODEL.Reserva(user.Id, sala.Id, dataHoraReserva);                        
                         label4.Text = "Reserva realizada com sucesso";
                         label4.Visible = true;
                     }

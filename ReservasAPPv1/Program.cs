@@ -15,9 +15,8 @@ namespace ReservasAPPv1
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
 
-
-;
-            Application.Run(new Reserva());
+           
+            Application.Run(new FormReserva());
         }
     }
 }

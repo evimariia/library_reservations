@@ -5,7 +5,7 @@ using Reservas.MODEL;
 
 namespace Reservas.BLLService.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class SalaController : ControllerBase
     {
