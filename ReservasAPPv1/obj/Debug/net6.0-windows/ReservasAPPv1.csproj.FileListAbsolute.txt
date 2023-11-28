@@ -212,7 +212,6 @@ C:\library_reservations\ReservasAPPv1\bin\Debug\net6.0-windows\Reservas.MODEL.pd
 C:\library_reservations\ReservasAPPv1\bin\Debug\net6.0-windows\Reservas.DAL.pdb
 C:\library_reservations\ReservasAPPv1\obj\Debug\net6.0-windows\ReservasAPPv1.csproj.AssemblyReference.cache
 C:\library_reservations\ReservasAPPv1\obj\Debug\net6.0-windows\ReservasAPPv1.Autenticacao.resources
-C:\library_reservations\ReservasAPPv1\obj\Debug\net6.0-windows\ReservasAPPv1.Reserva.resources
 C:\library_reservations\ReservasAPPv1\obj\Debug\net6.0-windows\ReservasAPPv1.csproj.GenerateResource.cache
 C:\library_reservations\ReservasAPPv1\obj\Debug\net6.0-windows\ReservasAPPv1.GeneratedMSBuildEditorConfig.editorconfig
 C:\library_reservations\ReservasAPPv1\obj\Debug\net6.0-windows\ReservasAPPv1.AssemblyInfoInputs.cache
@@ -225,3 +224,4 @@ C:\library_reservations\ReservasAPPv1\obj\Debug\net6.0-windows\ReservasAPPv1.pdb
 C:\library_reservations\ReservasAPPv1\obj\Debug\net6.0-windows\ReservasAPPv1.genruntimeconfig.cache
 C:\library_reservations\ReservasAPPv1\obj\Debug\net6.0-windows\ref\ReservasAPPv1.dll
 C:\library_reservations\ReservasAPPv1\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\library_reservations\ReservasAPPv1\obj\Debug\net6.0-windows\ReservasAPPv1.FormReserva.resources
