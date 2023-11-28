@@ -22,8 +22,6 @@ O projeto visa criar uma aplicação para facilitar a reserva de salas da biblio
 - Visual Studio: Ambiente de desenvolvimento integrado utilizado para a construção do projeto.
 - Swagger: Utilizado para criar a documentação da API, facilitando a compreensão e interação com os endpoints.
 
-## Como utilizar
-
 ## Como contribuir
 
 Se você deseja contribuir para o projeto, sinta-se à vontade para abrir issues, enviar pull requests ou colaborar de outras formas. Toda ajuda é bem-vinda!
